@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-21T06:31:31.294Z</updated>
+  <updated>2020-11-28T04:03:33.898Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git 常用命令总结</title>
+    <link href="http://yoursite.com/2020/11/28/git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2020/11/28/git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/</id>
+    <published>2020-11-28T04:03:33.177Z</published>
+    <updated>2020-11-28T04:03:33.898Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-常用命令总结"><a href="#git-常用命令总结" class="headerlink" title="git 常用命令总结"></a>git 常用命令总结</h1><p>git branch 查看本地所有分支<br>git status 查看当前状态<br>git commit 提交<br>git branch -a 查看所有的分支<br>git branch -r 查看本地所有分支<br>git push origin 分支名 将文件给推到服务器上<br>git remote show origin 显示远程库origin里的资源<br>git push origin master:develop<br>git push origin master:hb-dev 将本地库与服务器上的库进行关联<br>git merge 分支名 将该分支与当前分支进行合并<br>git remote show 查看远程库<br>git add . 将所有文件上传到缓存区<br>git rm 文件名(包括路径) 从git中删除指定文件<br>git clone url 从服务器上将代码给拉下来<br>git commit -a 提交当前repos的所有的改变<br>git add [file name] 添加一个文件到git index<br>git commit -v 当你用－v参数的时候可以看commit的差异<br>git commit -m “This is the message describing the commit” 添加commit信息<br>git commit -a -a是代表add，把所有的change加到git index里然后再commit<br>git commit -a -v 一般提交命令<br>git log 看你commit的日志<br>git diff 查看尚未暂存的更新<br>git rm a.a 移除文件(从暂存区和工作区中删除)<br>git rm –cached a.a 移除文件(只从暂存区中删除)<br>git commit -m “remove” 移除文件(从Git中删除)<br>git rm -f a.a 强行移除修改后文件(从暂存区和工作区中删除)<br>git diff –cached 或 $ git diff –staged 查看尚未提交的更新<br>git stash push 将文件给push到一个临时空间中<br>git stash pop 将文件从临时空间pop下来<br>git push origin master 将本地项目给提交到服务器中<br>git pull 本地与服务器端同步</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;git-常用命令总结&quot;&gt;&lt;a href=&quot;#git-常用命令总结&quot; class=&quot;headerlink&quot; title=&quot;git 常用命令总结&quot;&gt;&lt;/a&gt;git 常用命令总结&lt;/h1&gt;&lt;p&gt;git branch 查看本地所有分支&lt;br&gt;git status 查看当前
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>读书笔记《图解http》（一）</title>
